@@ -158,6 +158,70 @@ h6 {
 .ryr {
     background-color: #d7411d59 !important;
 }
+
+.maestro-asesores-sidebar {
+    background-color: #5d3db3;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.maestro-asesores-sidebar h5 {
+    margin-top: 20px;
+}
+
+.maestro-asesores-sidebar input {
+    margin-right: 10px;
+}
+
+.maestro-asesores-table-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.maestro-asesores-table {
+    flex: 1;
+}
+
+.table thead th {
+    background-color: #f1f9fc;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9fa;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.maestro-asesores-btn-view {
+    background-color: #5d3db3;
+    color: white;
+    border: none;
+}
+
+.maestro-asesores-btn-edit {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+}
+
+.maestro-asesores-btn-delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.maestro-asesores-search-bar {
+    margin-bottom: 20px;
+}
 /* End Custom */
 
 @media (max-width: 991px) {
